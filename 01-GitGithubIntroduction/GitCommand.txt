@@ -1,0 +1,20 @@
+1.git config             Bu komand qlobal və ya yerli layihə səviyyəsində Git konfiqurasiya dəyərlərini təyin etmək üçün istifadə olunur.           
+2.git log                Yazılmış bütün commit'ləri göstərir
+3.git commit             Yeni commit yazmaq üçün istifadə olunur
+4.git clone              Əgər layihə artıq mərkəzi depoda qurulubsa, komanda istifadəçilər üçün inkişaf nüsxəsini əldə etmək üçün ən ümumi üsuldur.
+5.git blame              Bu komand layihədə kimin nə və nə zaman etdiyini göstərən komanddır         
+6.git count              Repozitoriyada olan obyektlərin sayı haqqında məlumat verir.
+7.git init               Yeni Git deposu yaradır. Mövcud, dəyişdirilməmiş layihəni Git repozitoriyasına çevirmək və ya yeni, boş deponu işə salmaq üçün istifadə edilə bilər. Adətən yeni layihədə işləyəcəyiniz ilk əmrdir.
+8.git add                Git layihəsinin cari vəziyyətini saxlamaq üçün istifadə olunur.
+9.git stach              Komanda qəbul edilməmiş dəyişikliklərinizi götürür, sonra istifadə etmək üçün onları saxlayır və sonra onları işlək surətinizdən geri qaytarır. 
+10.git status            Layihənin hazırki vəziyyətini göstərir
+11.git clean             Git clean əmri bütün izlənilməmiş faylları Git iş qovluğundan silir.
+12.git --version         Git versiasını yoxlmaq üçündür
+13.git merge             Branchları birləşdirmək üçün istifadə olunur
+14.git show-branch       Branch'ları və onların öhdəliklərini göstərin
+15.git pull              Bu əmr uzaq depodan məzmunu götürmək və endirmək və həmin məzmuna uyğunlaşdırmaq üçün yerli deponu dərhal yeniləmək üçün istifadə olunur
+16.git branch            Yeni branch yaradır və hazırki branchları göstərir 
+17.git remote            Bu əmr sizə digər depolarla əlaqələr yaratmağa, onlara baxmaq və silmək imkanı verir.
+18.git push              Edilən dəyişiklikləri repoya ötürür
+19.git checkout          Başqa branch'a keçmək üçün istifadə olunur
+20.git switch            Başqa branch'a keçmək üçün alternativ yoldur

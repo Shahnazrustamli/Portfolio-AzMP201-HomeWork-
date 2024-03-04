@@ -1,0 +1,30 @@
+1.pwd         Cari iş qovluğunun yolunu göstərir
+2.cd          İş qovluğunu dəyişir
+3.mkdir       Yeni qovluq yaradır
+4.rm          Faylı silir
+5.touch       Yeni boş fayl yaradır
+6.clear       Terminalı təmizləyir
+7.ls          Qovluqdakı faylları göstərir
+8.cp          Faylları bir qovluqdan digərinə köçürür.
+9.diff        İki faylın məzmununu və onların fərqlərini müqayisə edir
+1.zip         Faylları sıxlaşdırır, ölçüsünü azaldır
+11.chmod      Fayl icazələrini dəyişdirmək üçün əmr
+12.file       Faylın növünü yoxlayır
+13.history    Əvvəllər işlədilən əmrləri sadalayır
+14.ln         Faylları və ya qovluqları əlaqələndirir
+15.cal        Terminalda təqvimi göstərir
+16.man        Əmr təlimatılarını göstərir
+17.lfconfig   Sistemin şəbəkə interfeyslərini və onların konfiqurasiyalarını göstərir
+18.curl       URL-lərdən istifadə edərək serverlər arasında məlumat ötürür
+19.wget       URL-dən faylları yükləyir
+20.ping       Sistemin şəbəkə bağlantısını yoxlayır
+21.shutdown   Sistemi söndürür və ya yenidən işə salır
+22.time       Komandaların icra müddətini hesablayır
+23.hostname   Sisteminizin host adını göstərir
+24.uname      ƏS haqqında əsas məlumatları əldə etmək əmri
+25.kill       Çalışan prosesi dayandırır
+26.rmdir      Boş qovluqları silir.
+27.mv         Faylların adını dəyişdirir 
+28.cat        Fayl məzmununu terminalda göstərin
+29.chmod      Fayl icazəsini dəyişmək üçündür
+30.find       Fayl və qovluq axtarışına kömək edir
