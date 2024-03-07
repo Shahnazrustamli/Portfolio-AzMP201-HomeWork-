@@ -1,0 +1,79 @@
+/* parentdən childa xitab  */
+.container .header h1 {
+  color: red;
+}
+/* Eyni anda bir neçə teqin seçilməsi ilə xitab */
+h1,
+p,
+pre,
+.head {
+  font-style: italic;
+}
+
+/* Atributla xitab */
+:disabled {
+  background-color: aquamarine;
+}
+[type="email"] {
+  border-style: dotted;
+}
+/* Atribut ve deyerine xitab. Bir diger versiyasi ise atribut~deyer-dir. Burada ise deyeri hemin deyer olan her sheye xitab edir */
+[name="salam"] {
+  border-radius: 9px;
+}
+
+/* Diger versiya ise atribut|=value-dir. Burada [lang|="en"] xitab etmek olar. */
+
+/* Qabaqcıl secim. Yəni səhifədəki butun a teqqlerine xitab edir. */
+a:hover {
+  color: red;
+}
+
+/* a[href^="https"] Burada linklere xitab edir hansilar ki https-dir.  */
+a[href^="https"] {
+  text-decoration: none;
+}
+/* a[href$=".pdf"]  Burada da linklere xitab edir. hansilar pdf qısaltmasıyla bitirse */
+a[href$=".pdf"] {
+  color: blue;
+}
+/* a[href*="telegram"] bu kodda linkde telegram olanlara xitab edecek */
+a[href*="telegram"] {
+  color: cadetblue;
+}
+
+/* Yəni h2 teqinden sonrakı p-yə xitab edir */
+
+.salam h2 + p {
+  width: 150px;
+  background-color: red;
+  color: white;
+}
+
+/* Burada ise istenilen h6-dan sonra gelen p-lere aiddir. Əvvəlində class adı yazsaydım yalnız o klasın icerisinde olan h6-dan sonra gelen p-lere aid olacaqdı */
+h6 ~ p {
+  background-color: blueviolet;
+  width: 200px;
+}
+/* Burada ise hər elementə class vermemek üçün first-child, last-child, invalid bu xitabdan istifade edirik */
+.article1 :first-child {
+  color: rgb(93, 226, 93);
+}
+
+/* Burada textin yalnız ilk setrine təsir edir. Bunun digər versiyaları da var ki, onlar ::after ::before, ::content(contente yeni text elave edir. Harada olacağına ise biz qerar veririk after ve before ile) ve s*/
+.article2 ::first-line {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* element.class bu tip xitabda ise  hemin classda olan butun hemin elementlere xitab olunur */
+p.text {
+  color: red;
+}
+/* div>p Burada pleri secir hansı ki, divden derhal sonra gelir. Yazsam diger codeların menası qalmayacaq deye yazmıram */
+
+/* :active
+:checked
+:default
+:disabled
+:empty
+ve s. */
