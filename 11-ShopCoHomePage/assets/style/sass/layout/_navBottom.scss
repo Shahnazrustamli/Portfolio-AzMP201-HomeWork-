@@ -9,10 +9,9 @@
   // height: 663px;
   position: relative;
   font-family: "Satoshi";
-  background-image: url("/assets/images/image/Header-main.svg") ;
+  background-image: url("/assets/images/image/Header-main.svg");
   .container {
-
-    .responsive-main{
+    .responsive-main {
       display: none !important;
     }
     h1 {
@@ -84,7 +83,6 @@
       right: 81px;
     }
   }
-
 }
 #header-bottom {
   padding: 40px 0;
@@ -148,16 +146,15 @@
             position: absolute;
           }
           .leftStar {
-          
             top: 137px;
             left: 27px;
-            img{
+            img {
               width: 44px !important;
               height: 44px !important;
             }
           }
           .rightStar {
-            img{
+            img {
               width: 76px !important;
               height: 76px !important;
             }
@@ -172,14 +169,13 @@
     }
   }
   #header-bottom {
-  padding: 20px 0;
+    padding: 20px 0;
 
-  .container {
-
-    flex-wrap: wrap;
-img{
-  padding: 20px 0;
-}
+    .container {
+      flex-wrap: wrap;
+      img {
+        padding: 20px 0;
+      }
+    }
   }
-}
 }
