@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Regular.ttf");
+}
+
+#navbar {
+  font-family: "Satoshi";
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .menu,
+  .responsiv-search {
+    display: none;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul {
+      margin-top: 21px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgba(0, 0, 0, 1);
+      li {
+        margin-right: 24px;
+        text-wrap: nowrap;
+      }
+    }
+    .icons {
+      display: flex;
+      gap: 14px;
+    }
+    .search {
+      position: relative;
+      width: 37%;
+
+      input {
+        text-indent: 52px;
+        height: 48px;
+        border-radius: 62px;
+        padding: 12px 16px 12px 16px;
+        width: 100%;
+        background-color: rgba(240, 240, 240, 1);
+        color: rgba(0, 0, 0, 0.4);
+        border: none;
+      }
+      .search-button {
+        img {
+          position: absolute;
+          top: 12px;
+          left: 16px;
+        }
+      }
+    }
+    .icons {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #navbar {
+    .menu {
+      display: block;
+    }
+    .container {
+      .ul {
+        display: none;
+      }
+      .search {
+        display: none;
+        input {
+          margin-right: 10px;
+        }
+        // :not(:focus)::-webkit-input-placeholder {
+        //   color: transparent;
+        // }
+      }
+      .responsiv-search {
+        display: block;
+      }
+    }
+  }
+}

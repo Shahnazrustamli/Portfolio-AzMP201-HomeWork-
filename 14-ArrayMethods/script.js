@@ -385,6 +385,9 @@ function teacher(array) {
 }
 teacher(students);
 //! - Bütün tələbələrə təqaüdlərinin dollar ilə görünməsini təmin edin
+
+
+
 //! - Müəllimlərin baş hərflərini böyük hərflə yazın
 //! - Şifrəsində rəqəm olmayan tələbələri tapın
 //! - Qızların arasında id-si 3 olan müəllimlərin adını deyin
