@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Muli";
+  src: url("../../fonts/static/Muli-Regular.ttf");
+  font-family: "Archivo";
+  src: url("../fonts/static/Archivo-Regular.ttf");
+}
+#projects .head {
+  text-align: center;
+}
+#projects .head h6 {
+  color: #fe7235;
+  font-size: 15px;
+  font-family: "Archivo";
+  letter-spacing: 3px;
+}
+#projects .head h2 {
+  font-size: 50px;
+  font-family: "Archivo";
+  color: rgb(36, 46, 66);
+  font-weight: 600;
+  letter-spacing: -1;
+}
+#projects .head p {
+  font-size: 22px;
+  color: #5b617c;
+  font-weight: 350;
+  margin-bottom: 20px;
+}
+#projects .section-card {
+  width: 348px;
+  height: 348px;
+}
+#projects .section-card #minus-circle {
+  display: none;
+}
+#projects .section-card img {
+  margin-bottom: 20px;
+}
+#projects .section-card h4 {
+  font-family: "Archivo";
+  color: #242e42;
+  font-size: 29px;
+  font-weight: 500;
+}
+#projects .section-card h6 {
+  margin-top: 20px;
+  color: #fe7235;
+  font-size: 15px;
+  font-family: "Archivo";
+  letter-spacing: 2px;
+}
+#projects .section-card p {
+  color: rgb(36, 46, 66);
+  font-size: 16px;
+  font-family: "Muli";
+  width: 100%;
+  margin: 0;
+}
+#projects .box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-top: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  margin: 20px 0;
+  cursor: pointer;
+}
+#projects .box .title {
+  color: #242e42;
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 600;
+}
+#projects .text {
+  max-height: 0 !important;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+#projects .text.active {
+  max-height: 200px;
+  background-color: blue;
+}
+#projects svg {
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=main.css.map */
