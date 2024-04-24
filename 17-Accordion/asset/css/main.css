@@ -89,4 +89,10 @@
 #projects svg {
   width: 18px;
   height: 18px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
 }/*# sourceMappingURL=main.css.map */
