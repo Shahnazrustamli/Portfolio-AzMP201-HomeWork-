@@ -1,0 +1,47 @@
+.counter {
+  display: flex;
+  gap: 50px;
+}
+.count {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fefae0;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  color: #bc6c25;
+  font-size: 24px;
+}
+.counter button {
+  background-color: #fefae0;
+  color: #bc6c25;
+}
+.count:hover {
+  border: 2px solid #bc6c25;
+}
+.counter button:hover {
+  border: 2px solid #bc6c25;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.defoltCount{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.defoltCount input{
+width: 200px;
+margin-right: 10px;
+height: 40px;
+font-size: 18px;
+padding: 0 10px;
+border-radius: 8px;
+border: none;
+}
