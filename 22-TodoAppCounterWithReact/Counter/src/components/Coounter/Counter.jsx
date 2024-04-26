@@ -5,6 +5,7 @@ const Counter = () => {
   const [inputValue, setInputValue] = useState(1);
   return (
     <div className="container">
+      <h1>Counter</h1>
       <div className="count">
         <p>{count}</p>
       </div>
