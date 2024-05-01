@@ -302,17 +302,17 @@ api.forEach(elem => {
     let favBtn = document.createElement("i")
     favBtn.className = "fav "
     favBtn.innerHTML = `<i class="fa-solid fa-heart heart fa-2x">`
-    favBtn.setAttribute=(`data`, elem.id)
+    favBtn.setAttribute = (`data`, elem.id)
 
     let cartbtn = document.createElement("i")
+    cartbtn.setAttribute("data", "cart")
     cartbtn.className = "cart"
-    cartbtn.innerHTML = `</i> <i class="fa-solid fa-cart-shopping fa-2x"></i>`
+    cartbtn.innerHTML = `</i> <i class="fa-solid fa-cart-shopping fa-2x card-btn"></i>`
     imgCard.append(image)
     icons.append(favBtn, cartbtn)
     cards.appendChild(card)
     cardBody.append(cardTitle, cardText, icons)
     card.append(imgCard, cardBody)
-
 
 
 
@@ -329,6 +329,5 @@ api.forEach(elem => {
             favBtn.classList.remove("red-fav")
         }
     })
-
 })
 
