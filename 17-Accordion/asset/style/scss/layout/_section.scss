@@ -8,12 +8,14 @@
 #projects {
   .head {
     text-align: center;
+
     h6 {
       color: #fe7235;
       font-size: 15px;
       font-family: "Archivo";
       letter-spacing: 3px;
     }
+
     h2 {
       font-size: 50px;
       font-family: "Archivo";
@@ -21,6 +23,7 @@
       font-weight: 600;
       letter-spacing: -1;
     }
+
     p {
       font-size: 22px;
       color: #5b617c;
@@ -28,25 +31,31 @@
       margin-bottom: 20px;
     }
   }
-  .main{
+
+  .main {
     display: flex;
     justify-content: space-between;
   }
+
   .section-card {
     width: 348px;
     height: 348px;
+
     #minus-circle {
       display: none;
     }
+
     img {
       margin-bottom: 20px;
     }
+
     h4 {
       font-family: "Archivo";
       color: #242e42;
       font-size: 29px;
       font-weight: 500;
     }
+
     h6 {
       margin-top: 20px;
       color: #fe7235;
@@ -54,6 +63,7 @@
       font-family: "Archivo";
       letter-spacing: 2px;
     }
+
     p {
       color: rgb(36, 46, 66);
       font-size: 16px;
@@ -62,6 +72,7 @@
       margin: 0;
     }
   }
+
   .box {
     width: 100%;
     display: flex;
@@ -80,18 +91,16 @@
       font-weight: 600;
     }
   }
-  .text {
-    max-height: 0 !important;
-    overflow: hidden;
-    transition: max-height 1.4s ease;
-  }
-  .text.active{
-    max-height: 200px;
-    background-color: blue;
 
+  .text {
+    display: none;
   }
+
   svg {
     width: 18px;
     height: 18px;
+  }
+  #minus-circle{
+    display: none;
   }
 }
