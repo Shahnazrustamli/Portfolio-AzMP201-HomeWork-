@@ -1,19 +1,24 @@
-// let box = document.querySelectorAll(".boxes")
+const boxes = document.querySelectorAll('.box');
 
-// box.forEach(elem => {
-//    elem.addEventListener("click", ()=>{
-//     elem.classList.toggle("active")
-//    })
-// })
+boxes.forEach(box => {
+    box.addEventListener('click', function () {
+        const text = this.nextElementSibling;
+        const plusIcon = this.querySelector('#plus-circle');
+        const minusIcon = this.querySelector('#minus-circle');
 
-// let boxes = document.querySelectorAll(".boxes");
-
-// boxes.forEach(box => {
-//     let text = box.querySelector(".text");
-//     box.addEventListener("click", function () {
-//         text.classList.toggle("active");
-//     });
-// });
+        if (text.style.display === 'block') {
+            text.style.display = 'none';
+            this.style.backgroundColor = '#fff';
+            plusIcon.style.display = 'block';
+            minusIcon.style.display = 'none';
+        } else {
+            text.style.display = 'block';
+            this.style.backgroundColor = '#007bff';
+            plusIcon.style.display = 'none';
+            minusIcon.style.display = 'block';
+        }
+    });
+});
 
 
 const addTodo = document.querySelector(".addTodo")
@@ -33,7 +38,7 @@ function createTodo() {
     let todoItem = document.createElement("div");
     let todoItemText = document.createElement("p");
     let deletebtn = document.createElement("button");
-    let editBtn = document.createElement("editBtn")
+    let editBtn = document.createElement("button")
 
     todoItem.className = "todoItem";
     todoItemText.className = "todoItemText";
@@ -42,7 +47,7 @@ function createTodo() {
 
     todoItemText.innerText = addTodoInput.value;
     deletebtn.innerText = "Delete"
-    editBtn.innerText="Edit"
+    editBtn.innerText = "Edit"
 
     todoItem.append(todoItemText, deletebtn, editBtn);
     todoBox.append(todoItem);
@@ -52,6 +57,6 @@ function createTodo() {
     })
 
     editBtn.addEventListener("click", function (e) {
-        
+
     })
 }
