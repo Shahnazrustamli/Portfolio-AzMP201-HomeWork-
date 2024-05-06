@@ -8,6 +8,10 @@ import { useEffect, useReducer } from "react";
 import { getAllData } from "./services/provider";
 import { endPoints } from "./services/api";
 import reducer from "./reducers/reducer";
+import Users from "./assets/pages/Users/Users";
+import LogIn from "./assets/pages/LogIn/LogIn";
+import SignIn from "./assets/pages/register/SignIn";
+
 // import { BASE_URL } from "./services/api";
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
             />
             <Route path="edit" element={<Edit />} />
             <Route path="post" element={<Post />} />
+            <Route path="users" element={<Users />} state={state} dispatch={dispatch} />
+            <Route path="login" element={<LogIn />} />
+            <Route path="signin" element={<SignIn />} />
+
           </Route>
         </Routes>
       </BrowserRouter>

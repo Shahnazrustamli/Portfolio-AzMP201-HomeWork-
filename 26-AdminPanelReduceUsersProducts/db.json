@@ -1,14 +1,104 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": "1",
-      "title": "a title",
-      "views": 100
+      "id": 1,
+      "name": "Əsəd",
+      "username": "ased",
+      "isAdmin": true,
+      "gender": "male",
+      "password": "123456",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
     },
     {
-      "id": "2",
-      "title": "another title",
-      "views": 200
+      "id": 2,
+      "name": "Səbinə",
+      "username": "sebine",
+      "isAdmin": false,
+      "gender": "female",
+      "password": "654321",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 3,
+      "name": "Tural",
+      "username": "tural",
+      "isAdmin": false,
+      "gender": "male",
+      "password": "password123",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 4,
+      "name": "Aysel",
+      "username": "aysel",
+      "isAdmin": true,
+      "gender": "female",
+      "password": "secret",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 5,
+      "name": "Məhəmməd",
+      "username": "mehemmed",
+      "isAdmin": false,
+      "gender": "male",
+      "password": "mypass",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 6,
+      "name": "Nigar",
+      "username": "nigar",
+      "isAdmin": false,
+      "gender": "female",
+      "password": "password1234",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 7,
+      "name": "Elvin",
+      "username": "elvin",
+      "isAdmin": true,
+      "gender": "male",
+      "password": "elvin123",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 8,
+      "name": "Zəhra",
+      "username": "zehra",
+      "isAdmin": false,
+      "gender": "female",
+      "password": "zehra123",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 9,
+      "name": "Nicat",
+      "username": "nicat",
+      "isAdmin": false,
+      "gender": "male",
+      "password": "nicat123",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
+    },
+    {
+      "id": 10,
+      "name": "Nərgiz",
+      "username": "nergiz",
+      "isAdmin": false,
+      "gender": "female",
+      "password": "nergiz123",
+      "balance": 0,
+      "registrationDate": "2024-05-07"
     }
   ],
   "suppliers": [
@@ -251,9 +341,18 @@
         "rate": 3.6,
         "count": 145
       }
+    },
+    {
+      "id": "437fc6a0-59d0-46a1-a1e9-03740161a550",
+      "name": "kjm;l/,;",
+      "description": "sa",
+      "category": "sas",
+      "image": "sa",
+      "rating": {
+        "rate": "sa",
+        "count": "23"
+      },
+      "price": "sa"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

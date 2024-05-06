@@ -11,7 +11,11 @@ const Navbarr = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="post">Post</Nav.Link>
-            <Nav.Link href="edit">Edit</Nav.Link>
+            {/* <Nav.Link href="edit">Edit</Nav.Link> */}
+            <Nav.Link href="users">Users</Nav.Link>
+            <Nav.Link href="login">Log In</Nav.Link>
+            <Nav.Link href="signin">Sign in</Nav.Link>
+            {/* <Nav.Link href="">Log out</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
