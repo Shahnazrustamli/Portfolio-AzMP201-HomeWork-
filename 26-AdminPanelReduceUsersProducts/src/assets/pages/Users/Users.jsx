@@ -1,14 +1,18 @@
-// Users.jsx
-
+// import useHistory from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 import { getAllData, deleteById } from "../../../services/provider";
 import "../../../App.css";
-
-const Users = () => {
+import SortUsers from "../../layout/sort/SortUsers";
+ 
+const Users = ({ dispatch }) => {
   const [users, setUsers] = useState([]);
-
+  // let history = useHistory();
+  // function handleClick() {
+  //   history.push("home");
+  // }
+  // let { userId } = useParams();
   useEffect(() => {
     async function fetchData() {
       try {
@@ -31,7 +35,9 @@ const Users = () => {
   };
 
   return (
-    <div>
+    <div className="users container">
+      <h1>Users</h1>
+      <SortUsers dispatch={dispatch} />
       <Table striped bordered hover variant="dark">
         <thead>
           <tr>
@@ -44,6 +50,7 @@ const Users = () => {
             <th>ADMIN</th>
             <th>DELETE</th>
             <th>EDIT</th>
+            <th>DETAIL</th>
           </tr>
         </thead>
         <tbody>
@@ -61,8 +68,11 @@ const Users = () => {
               </td>
               <td>
                 <Link className="td" to={`/edit/${user.id}`}>
-                  Edit
+                  <button> Edit</button>
                 </Link>
+              </td>
+              <td>
+                <button>Detail</button>
               </td>
             </tr>
           ))}

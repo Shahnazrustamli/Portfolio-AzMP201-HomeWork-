@@ -11,6 +11,7 @@ import reducer from "./reducers/reducer";
 import Users from "./assets/pages/Users/Users";
 import LogIn from "./assets/pages/LogIn/LogIn";
 import SignIn from "./assets/pages/register/SignIn";
+import Detail from "./assets/pages/detail/Detail";
 
 // import { BASE_URL } from "./services/api";
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="users" element={<Users />} state={state} dispatch={dispatch} />
             <Route path="login" element={<LogIn />} />
             <Route path="signin" element={<SignIn />} />
+            <Route path="/admin/:id" element={<Detail />} />
 
           </Route>
         </Routes>

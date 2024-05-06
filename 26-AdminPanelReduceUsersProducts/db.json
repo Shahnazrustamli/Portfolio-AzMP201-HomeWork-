@@ -1,17 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Əsəd",
-      "username": "ased",
-      "isAdmin": true,
-      "gender": "male",
-      "password": "123456",
+      "id": "1",
+      "name": "Shahnaz",
+      "username": "shahnaz",
+      "isAdmin": false,
+      "gender": "female",
+      "password": "659321",
       "balance": 0,
-      "registrationDate": "2024-05-07"
-    },
-    {
-      "id": 2,
+      "registrationDate": "2024-05-08"
+    }, {
+      "id": "2",
       "name": "Səbinə",
       "username": "sebine",
       "isAdmin": false,
@@ -21,7 +20,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Tural",
       "username": "tural",
       "isAdmin": false,
@@ -31,7 +30,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Aysel",
       "username": "aysel",
       "isAdmin": true,
@@ -41,7 +40,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Məhəmməd",
       "username": "mehemmed",
       "isAdmin": false,
@@ -51,7 +50,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Nigar",
       "username": "nigar",
       "isAdmin": false,
@@ -61,7 +60,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Elvin",
       "username": "elvin",
       "isAdmin": true,
@@ -71,7 +70,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Zəhra",
       "username": "zehra",
       "isAdmin": false,
@@ -81,7 +80,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Nicat",
       "username": "nicat",
       "isAdmin": false,
@@ -91,7 +90,7 @@
       "registrationDate": "2024-05-07"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Nərgiz",
       "username": "nergiz",
       "isAdmin": false,
@@ -353,6 +352,30 @@
         "count": "23"
       },
       "price": "sa"
+    },
+    {
+      "id": "6f30dcfd-e761-4acd-add1-39d46db59930",
+      "name": "sa",
+      "description": "sa",
+      "category": "sa",
+      "image": "sa",
+      "rating": {
+        "rate": "sa",
+        "count": "sa"
+      },
+      "price": "sa"
+    },
+    {
+      "id": "6c809a77-c820-4c94-8152-575d67a36ed8",
+      "name": "rut",
+      "description": "rtuh",
+      "category": "rtuj",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1LQpu3LRJCUEeJBIPU7Cg-7rCcN1sxvP2P2AiJiodaA&s",
+      "rating": {
+        "rate": "1",
+        "count": "1"
+      },
+      "price": "havayi"
     }
   ]
 }

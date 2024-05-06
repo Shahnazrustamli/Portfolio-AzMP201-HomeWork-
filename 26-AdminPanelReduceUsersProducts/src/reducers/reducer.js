@@ -34,6 +34,15 @@ const reducer = (state, action) => {
             return { ...state, suppliers: arr };
         }
 
+        case "FilterAdmin": {
+            let arr = [...state.users].sort((a, b) => {
+                a.isAdmin===true ? c=a.isAdminn : false
+                return c
+            }
+            );
+            return { ...state, suppliers: arr };
+        }
+
         default:
             return state
     }

@@ -1,51 +1,51 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { getAllData, putData } from "../../../services/provider";
-import { endPoints } from "../../../services/api";
-import { BASE_URL } from "../../../services/api";
+// import { getAllData, putData } from "../../../services/provider";
+// import { endPoints } from "../../../services/api";
+// import { BASE_URL } from "../../../services/api";
 const Edit = () => {
   const { id } = useParams();
-  const [product, setProduct] = useState({
-    name: "",
-    description: "",
-    category: "",
-    image: "",
-    rating: {
-      rate: "",
-      count: "",
-    },
-    price: "",
-  });
+  console.log(id)
+  // const [product, setProduct] = useState({
+  //   name: "",
+  //   description: "",
+  //   category: "",
+  //   image: "",
+  //   rating: {
+  //     rate: "",
+  //     count: "",
+  //   },
+  //   price: "",
+  // });
+  // useEffect(() => {
+  //   fetchData();
+  // }, [id]);
 
-  useEffect(() => {
-    fetchData();
-  }, [id]);
+  // const fetchData = async () => {
+  //   try {
+  //     const response = await getAllData(
+  //       `${BASE_URL}${endPoints.suppliers}/${id}`
+  //     );
+  //     setProduct(response);
+  //   } catch (error) {
+  //     console.error("Error fetching data:", error);
+  //   }
+  // };
 
-  const fetchData = async () => {
-    try {
-      const response = await getAllData(
-        `${BASE_URL}${endPoints.suppliers}/${id}`
-      );
-      setProduct(response);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setProduct({ ...product, [name]: value });
+  // };
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setProduct({ ...product, [name]: value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await putData(endPoints.suppliers + "/" + id, product);
-      history.push("/"); 
-    } catch (error) {
-      console.error("Error updating data:", error);
-    }
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     await putData(endPoints.suppliers + "/" + id, product);
+  //     history.push("/"); 
+  //   } catch (error) {
+  //     console.error("Error updating data:", error);
+  //   }
+  // };
 
   // return (
   //   <div className="edit">

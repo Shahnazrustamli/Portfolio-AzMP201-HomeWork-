@@ -1,10 +1,12 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
-import "../../../App.css"
+import "../../../App.css";
+import Sort from "../../layout/sort/Sort";
 const Admin = ({ state, dispatch }) => {
   return (
-
+    <div className="container">
+      <Sort dispatch={dispatch} />
       <Table striped bordered hover variant="dark">
         <thead>
           <tr>
@@ -28,16 +30,20 @@ const Admin = ({ state, dispatch }) => {
                 <td>{elem.price}</td>
                 <td>{elem.description}</td>
                 <td>{elem.category}</td>
-                <td>{elem.image}</td>
+                <td><img src={elem.image} alt="" /></td>
                 <td>{elem.rating.rate}</td>
                 <td>{elem.rating.count}</td>
-                <td ><Link className="td" to="/edit">Edit</Link></td>
+                <td>
+                  <Link className="td" to={`/admin/${elem.id}`}>
+                    Edit
+                  </Link>
+                </td>
               </tr>
             );
           })}
         </tbody>
       </Table>
-   
+    </div>
   );
 };
 
