@@ -7,6 +7,6 @@ export const store = configureStore({
   reducer: {
     card: cardSlices,
     basket: basketSlices,
-    wishList: favSlice,
+    wishlist: favSlice,
   },
 })
