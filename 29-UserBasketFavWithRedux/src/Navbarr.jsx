@@ -11,7 +11,7 @@ function Navbarr() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="basket">Basket</Nav.Link>
-            {/* <Nav.Link href="">Pricing</Nav.Link> */}
+            <Nav.Link href="fav">Fav</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

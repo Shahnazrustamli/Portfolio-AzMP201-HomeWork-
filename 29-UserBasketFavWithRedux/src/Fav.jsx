@@ -1,15 +1,14 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { useSelector } from "react-redux";
-function Basket() {
-  const {baskets}= useSelector((store)=>store.basket)
-
+import { useDispatch, useSelector } from "react-redux";
+function Fav() {
+  const {favorites}= useSelector((store)=>store.wishList)
   return (
     <>
      <div className="cards container">
-        {baskets &&
-          baskets.map((item, index) => {
+        {favorites &&
+          favorites.map((item, index) => {
             return (
               <Card style={{ width: "18rem" }}>
                 <div className="cardImage"><Card.Img className="image" variant="top" src={item.image} /></div>
@@ -18,7 +17,6 @@ function Basket() {
                   <Card.Text>{item.price}</Card.Text>
                   <Button variant="primary">Basket</Button>
                   <Button variant="primary">Fav</Button>
-
                 </Card.Body>
               </Card>
             );
@@ -28,4 +26,4 @@ function Basket() {
   );
 }
 
-export default Basket;
+export default Fav;

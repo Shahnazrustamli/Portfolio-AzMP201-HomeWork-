@@ -5,10 +5,9 @@ const initialState = {
   card: [],
 };
 export const getCard = createAsyncThunk("getCard", async () => {
-  const { data } = await axios.get("https://northwind.vercel.app/api/products");
+  const { data } = await axios.get("https://fakestoreapi.com/products");
   return data;
 });
-// https://fakestoreapi.com/products
 export const cardSlices = createSlice({
   name: "card",
   initialState,
