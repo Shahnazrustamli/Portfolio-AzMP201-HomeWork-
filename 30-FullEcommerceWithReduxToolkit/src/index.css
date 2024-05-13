@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+.cardImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 100px;
+  height: 150px;
+}
+button {
+  margin: 20px;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  font-size: 25px;
+}
+/* .card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+} */
