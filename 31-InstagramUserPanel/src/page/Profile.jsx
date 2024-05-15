@@ -3,15 +3,15 @@ import React from "react";
 const Profile = () => {
   return (
     <div className="profile-container">
-     <div className="name-peofile">
-     <div className="name">
-        <i class="fa-solid fa-lock"></i> <p>kuche_pishiyi</p>{" "}
-        <i class="fa-solid fa-angle-down"></i>
+      <div className="name-peofile">
+        <div className="name">
+          <i className="fa-solid fa-lock"></i> <p>kuche_pishiyi</p>{" "}
+          <i className="fa-solid fa-angle-down"></i>
+        </div>
+        <div>
+          <i className="fa-solid fa-bars"></i>
+        </div>
       </div>
-      <div>
-      <i class="fa-solid fa-bars"></i>
-      </div>
-     </div>
       <div className="profile-header">
         <img
           className="profile-picture"
@@ -38,7 +38,7 @@ const Profile = () => {
           <button className="edit-profile-button">Edit Profile</button>
           <button className="edit-profile-button">Share Profile</button>
           <button className="edit-profile-button">
-            <i class="fa-solid fa-user-plus"></i>
+            <i className="fa-solid fa-user-plus"></i>
           </button>
         </div>
       </div>
@@ -74,7 +74,7 @@ const Profile = () => {
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQftXXE7LmgRLyLfKm_omXkrWtPwaTzP5g-rov2IF6siw&s"
           alt=""
-        />{" "}
+        />
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQftXXE7LmgRLyLfKm_omXkrWtPwaTzP5g-rov2IF6siw&s"
           alt=""
